@@ -19,7 +19,10 @@
     <Filter Include="Header Files\CTetris">
       <UniqueIdentifier>{4101fff0-834b-41ed-817d-9c2d455e9508}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\CTetris\CBlocks">
+    <Filter Include="Source Files\CTetris\CBlock">
+      <UniqueIdentifier>{8843c429-8a8f-4ac8-8659-5471a625d747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CTetris\CBlock">
       <UniqueIdentifier>{d9a33fca-56a0-42b0-b5f4-a3108653b29c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -48,17 +51,17 @@
     <ClInclude Include="Resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="CTetrisMod.h">
+    <ClInclude Include="CTetris\include\CBlocks\CBlock.h">
+      <Filter>Header Files\CTetris\CBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="CTetris\include\CBlocks\CRBlock.h">
+      <Filter>Header Files\CTetris\CBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="CTetris\include\CBlocks\CRBlockI.h">
+      <Filter>Header Files\CTetris\CBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="CTetris\include\CTetris.h">
       <Filter>Header Files\CTetris</Filter>
-    </ClInclude>
-    <ClInclude Include="CBlock.h">
-      <Filter>Header Files\CTetris</Filter>
-    </ClInclude>
-    <ClInclude Include="CBlocks.h">
-      <Filter>Header Files\CTetris\CBlocks</Filter>
-    </ClInclude>
-    <ClInclude Include="CBlocksI.h">
-      <Filter>Header Files\CTetris\CBlocks</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -70,6 +73,12 @@
     </ClCompile>
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CTetris\src\CBlocks\CTetris.cpp">
+      <Filter>Source Files\CTetris</Filter>
+    </ClCompile>
+    <ClCompile Include="CTetris\src\CBlocks\CBlocksI.cpp">
+      <Filter>Source Files\CTetris\CBlock</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
