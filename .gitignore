@@ -26,3 +26,17 @@
 *.exe
 *.out
 *.app
+
+# VS Project files
+*.cache
+*.ilk
+*.ipch
+*.res
+*.lastbuildstate
+*.manifest
+*.pdb
+*.rc
+*.sdf
+*.tlog
+*.idb
+*.log
