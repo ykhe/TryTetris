@@ -1,0 +1,6 @@
+#pragma once
+
+#include "CBlocks.h"
+
+class CBlocksI : CBlocks
+{};
